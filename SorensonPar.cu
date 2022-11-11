@@ -251,8 +251,8 @@ int main(int argc, char **argv)
 	}
 
 	// Display the primes.
-	for (int i = 0; i < N; i++)
-		if (S[i]) printf("%llu ", i);
+	//for (int i = 0; i < N; i++)
+		//if (S[i]) printf("%llu ", i);
 
 	delete[] S;
     return 0;
